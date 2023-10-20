@@ -1,0 +1,113 @@
+
+body
+    {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+.parent
+    {
+        width: 80%;
+        height: 600px;
+        background-color: rgb(247, 247, 248);
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr;
+        grid-gap: 10px;
+
+    }
+.child
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        border: 5px solid rgb(250, 250, 242);
+    }
+.parent .child:nth-child(1)
+    {
+        
+        grid-row-start:1;
+        grid-row-end:3 ;
+        height: 550px;
+        background-color: white;
+        color: black;
+        
+    }
+.parent .child:nth-child(2)
+    {
+        height: 200px;
+        width: 480px;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        background-color:white;
+        color: black;
+        margin-left: 10px;
+    
+    }
+
+.parent .child:nth-child(3)
+    { 
+        height: 350px;
+        width: 480px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        color:black;
+        background-color:white;
+        margin-left: 10px;
+        margin-top: auto;
+    }
+.card_image
+    {
+        
+        width: 100%;
+        height: 200px;
+        margin-left: 30px;
+        margin-top: 20px;
+        
+    }
+.card_name
+    {
+        margin-top: -30px;
+        margin-left: 40px;
+    }
+.card_header
+    {
+        margin-top: 30px;
+        margin-left: 40px;
+        font-size:small;
+        line-height:20px;
+    }
+.line
+    {
+        width: 80%;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 0.5px solid #9E9E9E;
+    }
+.card_body 
+    {
+        margin-left: 40px;  
+    }
+meter
+    {
+        width: 80%;
+        height: 30px;
+        margin-right: 10px;
+    }  
+.fa-solid
+    {
+        color: rgba(17, 138, 17, 0.973);
+    }
+
+h5
+    {
+        color: rgb(56, 160, 24);
+    }
+.container
+    {
+        margin-left: 10px;
+        min-height: fit-content;
+    }
